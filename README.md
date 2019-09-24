@@ -1,11 +1,42 @@
-# Windows 95 Theme for Jekyll
+# .X [![Build Status](https://travis-ci.org/nandomoreirame/dotX.svg?branch=master)](https://travis-ci.org/nandomoreirame/dotX)
 
-![ss](https://github.com/h01000110/windows-95/raw/gh-pages/screenshot_2.png)
+> Simple & Beautiful Jekyll theme
 
-Homepage: [Windows 95](https://h01000110.github.io/20170917/windows-95)
 
-Demo: [Click here](https://h01000110.github.io/windows-95/)
 
-Author: [h01000110 (hi)](https://github.com/h01000110)
+### [Demo](https://nandomoreirame.github.io/dotX/)
 
-License: [MIT](https://github.com/h01000110/windows-95/blob/master/LICENSE)
+![dotX - free Jekyll theme](/screenshot.png)
+
+---
+
+### Start in 4 steps
+
+1. Download or clone repo `git clone git@github.com:nandomoreirame/dotX.git`
+2. Enter the folder: `cd dotX/`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `jekyll serve`
+
+Access, [localhost:4000/dotX](http://localhost:4000/dotX)
+
+### Deploy in Github pages in 2 steps
+
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
+
+---
+
+### Using Rake tasks
+
+* Create a new page: `rake page name="contact.md"`
+* Create a new post: `rake post title="TITLE OF THE POST"`
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+Enjoy :yum:
+
+by [nandomoreira.me](https://nandomoreira.me)
