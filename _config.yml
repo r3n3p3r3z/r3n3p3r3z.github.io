@@ -44,3 +44,5 @@ repo: http://github.com/nandomoreirame/dotX
 
 # comments
 disqus_shortname: "fernandomoreira"
+
+theme: jekyll-theme-hacker
